@@ -6,25 +6,31 @@
 	<meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Login - SOS DATA SUS</title>
-      <link rel="stylesheet" href="login-page.css">
+      <link rel="stylesheet" href="style.css">
       <script defer src="login-page.js"></script>
 </head>
 <body>
-     <h1>REGISTRO DE INCIDENTES</h1>
-     <main id="main-holder">
-         <h1 id="login-header">Login</h1>
 
-         <div id="login-msg-holder">
-           <p id="login-msg">USUÁRIO <span id="error-msg-second-line">e SENHA</span></p>
-         </div>
+     <section class="area-Login">
+        <div class="login">
+            <h1>S.O.S</h1>
+            <div>
+                <img src="images/logo1.png"
+            </div>
+
+        </div>
+         <h1>REGISTRO DE INCIDENTES</h1>
+
+
+
 
          <form id="login-form">
-           <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
-           <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
-           <input type="submit" value="Login" id="login-form-submit">
+           <input type="text" name="nome" id="username-field" class="login-form-field" placeholder="Usuário" autofocus>
+           <input type="password" name="senha" id="password-field" class="login-form-field" placeholder="Senha" >
+           <input type="submit" value="Entrar" id="login-form-submit">
          </form>
-
-       </main>
+        <p>Ainda não tem conta?<a href="#"> Criar conta</a></p>
+     </section>
 </body>
 
 </html>
