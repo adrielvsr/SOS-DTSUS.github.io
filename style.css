@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,100&display=swap');
 
 body{
@@ -10,14 +9,14 @@ body{
 
 }
 
-.area-Login{
+.area-cadastro{
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
 }
 
-.login{
+.cadastro{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,14 +29,8 @@ body{
 
 }
 
-.login form{
-    display: flex;
-    width: 90%;
-    flex-direction: column;
 
-}
-
-.login input{
+.dados input label{
     margin-top: 10px;
     background-color: #c5c3c3;
     padding-left: 10px;
@@ -48,15 +41,26 @@ body{
 
 }
 
-.login img{
-    width: 450px;
+.cadastro img{
+    width: 200px;
     height: auto;
+}
+
+.dados form{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
 }
 
 input::placeholder{
     color: #6b6a6a;
     font-size: 13px;
 
+}
+
+main form label{
+    display: flex;
+    flex-direction: column;
 }
 
 form [type="submit"]{
@@ -71,4 +75,12 @@ form [type="submit"]{
 a{
     color: gray;
     text-decoration: none;
+}
+
+.scroll{
+    overflow: auto;
+}
+
+textarea{
+    width: 1000px;
 }

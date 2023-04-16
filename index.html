@@ -7,9 +7,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Login - SOS DATA SUS</title>
       <link rel="stylesheet" href="style.css">
-      <script defer src="login-page.js"></script>
+      <script defer src="sucess-page.html"></script>
 </head>
-<body>
+<body class="scroll">
 
      <section class="area-Login">
         <div class="login">
@@ -24,12 +24,32 @@
 
 
 
-         <form id="login-form">
-           <input type="text" name="nome" id="username-field" class="login-form-field" placeholder="Usuário" autofocus>
-           <input type="password" name="senha" id="password-field" class="login-form-field" placeholder="Senha" >
-           <input type="submit" value="Entrar" id="login-form-submit">
+         <form id="registro">
+             <label for="name">
+                 <span>Nome</span>
+                 <input type="text" id="name" name="name" placeholder="Digite Seu Nome Completo" autofocus>
+             </label>
+
+             <label for="UF">
+                 <span>UF</span>
+                 <input type="text" id="uf" name="uf" placeholder="Digite UF de Estado">
+             </label>
+
+             <label for="und">
+                 <span>Und</span>
+                 <input type="text" id="und" name="und" placeholder="Digite Sua Unidade SUS">
+             </label>
+
+             <label for="tel">
+                 <span>Tel</span>
+                 <input type="text" id="tel" name="Tel" placeholder="(xx) - xxxxxxx">
+             </label>
+
+            <textarea rows="8" cols="200" name="Comentário Sobre o Incidente Ocorrido" id="coment" maxlength="300" minlength="20"></textarea>
+
+             <a href="sucess-page.html"> Finalizar Registro</a>
          </form>
-        <p>Ainda não tem conta?<a href="login-page.html" target="next"> Criar conta</a></p>
+
      </section>
 </body>
 

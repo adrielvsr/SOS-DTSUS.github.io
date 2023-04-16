@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<html>
+
+
+
+    .EXECUTE dbHost = 'containers-us-west-79.railway.app';
+    .EXECUTE dbUsername = 'root';
+    .EXECUTE dbPassword = '';
+    .EXECUTE dbName = 'railway';
+
+    .conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
+
+if($conexao->connect_errno){
+    echo "Erro";
+}
+else
+{
+    echo "conexão criada com sucesso";
+}
+
+</html>
