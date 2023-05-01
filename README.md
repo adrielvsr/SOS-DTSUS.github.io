@@ -1,4 +1,4 @@
-<html lang="pt-br">
+
 # Este site será o complemento de trabalho acadêmico.
 # SOS-DTSUS
 ## Objetivo
